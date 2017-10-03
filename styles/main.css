@@ -1,3 +1,7 @@
+html,body {
+  height: 100%;
+}
+
 body {
   background-color: skyblue;
 }
@@ -22,4 +26,10 @@ nav {
 .nav {
   color: gray;
   text-decoration: none;
+}
+
+footer {
+  font-size: 10px;
+  clear: both;
+  position: absolute;
 }
