@@ -1,3 +1,25 @@
+body {
+  background-color: skyblue;
+}
+
 .title {
   text-align: center;
+}
+
+section {
+  min-width: 400px;
+  float: left;
+}
+
+nav {
+  float: left;
+  max-width: 200px;
+  background-color: black;
+  padding: 10px;
+  margin-right: 100px;
+}
+
+.nav {
+  color: gray;
+  text-decoration: none;
 }
