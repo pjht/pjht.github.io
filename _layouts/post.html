@@ -1,9 +1,18 @@
----
-layout: default
----
-<h1>{{ page.title }}</h1>
-<p>{{ page.date | date_to_string }}</p>
-
-<div class="post">
-  {{ content }}
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{page.title}}</title>
+  <link rel="stylesheet" type="text/css" href="/styles/main.css">
+</head>
+<body>
+  <h1 class="title">{{page.title}}</h1>
+  {% include nav.html %}
+  <section>
+    {{content}}
+  </section>
+  <div style="clear: both;"></div>
+  <footer>
+    <a href="https://www.github.com/pjht/pjht.github.io">Source code</a>
+  </footer>
+</body>
+</html>
