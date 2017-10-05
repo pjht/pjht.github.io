@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "First post"
 date: 2017-09-26
 ---
