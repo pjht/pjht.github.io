@@ -1,5 +1,4 @@
 ---
-layout: default
 title: "Started with Dave today"
 date: 2017-10-03
 ---

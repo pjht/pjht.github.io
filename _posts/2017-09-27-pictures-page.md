@@ -1,5 +1,4 @@
 ---
-layout: default
 title: "Pictures Page"
 date: 2017-09-27
 ---
