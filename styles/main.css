@@ -33,3 +33,11 @@ footer {
   clear: both;
   position: absolute;
 }
+
+span {
+  top: 50%;
+}
+
+td {
+  padding-right: 10px;
+}

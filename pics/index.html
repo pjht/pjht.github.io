@@ -5,30 +5,48 @@ title: Pics
 <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
-<br>
-<br>
-<br>
-{% include img.html img="Snugs-1" gallery="catdog" %}
-{% include img.html img="Snugs-2" gallery="catdog" %}
-{% include img.html img="Snugs-3" gallery="catdog" %}
-{% include img.html img="Best-pals" gallery="catdog" %}
-<br>
-<br>
-<br>
-{% include img.html img="The-Pond" gallery="fishing" %}
-{% include img.html img="Peter-with-a-fish" gallery="fishing" %}
-{% include img.html img="A-Largemouth-Bass" gallery="fishing" %}
-<br>
-<br>
-<br>
-{% include img.html img="Whats-under-here" gallery="geocaching" %}
-{% include img.html img="Found-it" gallery="geocaching" %}
-{% include img.html img="Our-first-nano" gallery="geocaching" %}
-{% include img.html img="Camo-cache" gallery="geocaching" %}
-{% include img.html img="Hidey-hole" gallery="geocaching" %}
-<br>
-<br>
-<br>
-{% include img.html img="Pitting-Cherries" gallery="misc" %}
-{% include img.html img="Dominoes" gallery="misc" %}
-{% include img.html img="Pretzel" gallery="misc" %}
+<table>
+  <tr>
+    <td>
+      <h2> Snugs The Cat </h2>
+    </td>
+    <td>
+      {% include img.html img="Snugs-1" gallery="catdog" %}
+      {% include img.html img="Snugs-2" gallery="catdog" %}
+      {% include img.html img="Snugs-3" gallery="catdog" %}
+      {% include img.html img="Best-pals" gallery="catdog" %}
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h2> Fishing </h2>
+    </td>
+    <td>
+      {% include img.html img="The-Pond" gallery="fishing" %}
+      {% include img.html img="Peter-with-a-fish" gallery="fishing" %}
+      {% include img.html img="A-Largemouth-Bass" gallery="fishing" %}
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h2> Geocaching </h2>
+    </td>
+    <td>
+      {% include img.html img="Whats-under-here" gallery="geocaching" %}
+      {% include img.html img="Found-it" gallery="geocaching" %}
+      {% include img.html img="Our-first-nano" gallery="geocaching" %}
+      {% include img.html img="Camo-cache" gallery="geocaching" %}
+      {% include img.html img="Hidey-hole" gallery="geocaching" %}
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h2> Misc </h2>
+    </td>
+    <td>
+      {% include img.html img="Pitting-Cherries" gallery="misc" %}
+      {% include img.html img="Dominoes" gallery="misc" %}
+      {% include img.html img="Pretzel" gallery="misc" %}
+    </td>
+  </tr>
+</table>
