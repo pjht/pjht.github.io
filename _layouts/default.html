@@ -3,6 +3,12 @@
 <head>
   <title>{{page.title}}</title>
   <link rel="stylesheet" type="text/css" href="/styles/main.css">
+  {% for sheet in page.sheets %}
+    <link rel="stylesheet" type="text/css" href={{ sheet }}>
+  {% endfor %}
+  {% for script in page.scripts %}
+    <script src={{ script }}></script>
+  {% endfor %}
 </head>
 <body>
   <h1 class="title">{{page.title}}</h1>
