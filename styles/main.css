@@ -23,11 +23,16 @@ nav {
   margin-right: 100px;
 }
 
-.nav {
+nav a {
   color: gray;
   text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
 }
 
+nav a:last-child {
+  margin-bottom: 0px;
+}
 footer {
   font-size: 10px;
   clear: both;

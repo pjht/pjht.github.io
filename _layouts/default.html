@@ -14,8 +14,7 @@
   <h1 class="title">{{page.title}}</h1>
   <nav>
     {% for page in site.pages %}
-        <a class="nav" href={{ page.url }}>{{ page.title }}</a>
-        <br>
+        <a href={{ page.url }}>{{ page.title }}</a>
     {% endfor %}
   </nav>
   <section>
