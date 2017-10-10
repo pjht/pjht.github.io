@@ -1,5 +1,10 @@
 ---
 title: Geocaching
+scripts:
+  - https://code.jquery.com/jquery-3.2.1.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js
+sheets:
+  - https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css
 ---
 <p>
 Welcome to our geocaching page! This page will explain what geocaching is.
@@ -12,4 +17,9 @@ Welcome to our geocaching page! This page will explain what geocaching is.
   Here is an explanation video from geocaching.com:
 </p>
 <iframe src="https://player.vimeo.com/video/72015447" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  
+<p>Geocaching pictures:</p>
+{% include img.html img="Whats-under-here" gallery="geocaching" %}
+{% include img.html img="Found-it" gallery="geocaching" %}
+{% include img.html img="Our-first-nano" gallery="geocaching" %}
+{% include img.html img="Camo-cache" gallery="geocaching" %}
+{% include img.html img="Hidey-hole" gallery="geocaching" %}
