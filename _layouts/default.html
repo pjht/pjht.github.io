@@ -12,7 +12,12 @@
 </head>
 <body>
   <h1 class="title">{{page.title}}</h1>
-  {% include nav.html %}
+  <nav>
+    {% for page in site.pages %}
+        <a class="nav" href={{ page.url }}>{{ page.title }}</a>
+        <br>
+    {% endfor %}
+  </nav>
   <section>
     {{content}}
   </section>
