@@ -1,7 +1,3 @@
-html,body {
-  height: 100%;
-}
-
 body {
   background-color: skyblue;
 }
@@ -10,17 +6,12 @@ body {
   text-align: center;
 }
 
-section {
-  min-width: 400px;
-  float: left;
-}
 
 nav {
   float: left;
   max-width: 200px;
   background-color: black;
   padding: 10px;
-  margin-right: 100px;
 }
 
 nav a {
@@ -33,16 +24,31 @@ nav a {
 nav a:last-child {
   margin-bottom: 0px;
 }
+
 footer {
   font-size: 10px;
   clear: both;
-  position: absolute;
+  padding: 0 20px 40px 20px;
 }
 
-span {
-  top: 50%;
+section {
+  min-width: 400px;
+  float: right;
+  margin-left: 20px;
+  width: 80%;
 }
 
-td {
-  padding-right: 10px;
+
+@media only screen and (max-width: 615px) {
+  nav {
+    float: none;
+    margin: 0 auto 0 20px;
+    width: 100px;
+  }
+
+  section {
+    float: none;
+    margin: 0 auto 0 20px;
+    width: 90%;
+  }
 }
