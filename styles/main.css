@@ -18,6 +18,14 @@ body {
   animation-iteration-count: infinite;
 }
 
+.spin {
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
 .title {
   text-align: center;
 }

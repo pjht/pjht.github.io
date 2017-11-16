@@ -12,9 +12,16 @@
     <script src={{ script }}></script>
   {% endfor %}
   <script>
+
   $(document).ready(function(){
     $("#crazy").click(function() {
         $("body").toggleClass("crazy");
+    });
+    $("#spin").click(function() {
+        $("body").toggleClass("spin");
+        setTimeout(function(){
+          $("body").toggleClass("spin");
+        },800)
     });
   });
   </script>
@@ -33,6 +40,7 @@
   <footer>
     <a href="https://www.github.com/pjht/pjht.github.io">Source code</a>
     <button id="crazy">Toggle crazy mode</button>
+    <button id="spin">Spin!</button>
   </footer>
 </body>
 </html>
